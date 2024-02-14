@@ -1,0 +1,282 @@
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    background-color: #acbcec;
+    background-image: url(vecteezy_polygon-texture-abstract-background-3d-rendering_7259886.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+        bottom: 18px;
+    align-items: center;
+    height: 75px;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.342), rgba(0, 0, 0, 0.356));
+    backdrop-filter: blur(4.0px);
+    box-shadow: 3px 3px 19px rgb(192, 235, 255);   
+}
+
+.logo{
+    flex: 20%;
+    text-align: center;
+    margin-left: 8%;   
+}
+
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    font-weight:bolder;
+    text-decoration: none;
+
+}
+
+.logo a:hover{
+    color: rgb(53, 11, 241);
+}
+
+.menu{
+    flex:70%;
+    text-align: right;
+    padding: 15px; 
+    
+}
+
+.menu a{
+    position: relative;
+        right: 146px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #030303;
+}
+
+.menu a:hover{
+    color: rgb(53, 11, 241);
+    border-bottom: 2px solid rgb(252, 252, 252);
+    padding-top: 5px;
+}
+
+
+.botao:hover{
+    color: rgb(64, 61, 226);
+    border-bottom:2px solid rgb(252, 252, 252);
+}
+
+.header{
+    display: flex;
+    height: 500px;
+    
+}
+
+.icons{
+    position: fixed;
+    right: 15px;
+    margin: 5px;
+    height: 50px;
+
+}
+.icons svg{
+    display: flex;
+    padding: 5px;
+    height: 50px;
+    width: 30px;
+    
+}
+
+
+.headline{
+    display:relative ;
+    padding-top: 190px;
+    margin-left:9%;
+    font-family:'Lobster Two', cursive;
+    animation: complete 5s -2s;    
+}
+
+@keyframes complete{
+   0%  {padding-top: 70%;}
+
+   
+} 
+
+.img-right img{
+
+    width: 300px;
+    margin: 20%;
+    margin-top: 100px;
+    animation: imagem 7s -2s;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px ;
+    
+}
+
+@keyframes imagem{
+    0%  {opacity: 0;}
+    10% {padding-left: 35%;}
+    20% {opacity: 0;}
+    35% {opacity: 0;}
+}
+
+.headline h2{
+    display: flex;
+    font-weight: 900px;
+    font-size: 20px;
+    color:#4f56be;
+    padding: 0;
+    margin: 20px;
+    
+}
+
+section{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    width: 90%;
+    text-align: center;
+    height: 150px;
+}
+
+section h2{
+    width: 100%;
+    margin: 0;
+    font-family:'Lobster Two', cursive;
+    color:rgb(3, 3, 3);
+    font-weight: blod;
+}
+
+section p{
+    overflow: hidden;
+   
+}
+
+#projetoLnk{
+    position: relative;
+        bottom: 65px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+    color:rgb(5, 5, 5);
+    text-align: center;
+    
+}
+
+.projeto{
+    display: inline-block;
+    position: relative;
+    max-height: 150px;
+    color: rgb(7, 7, 7);
+}
+
+.projeto h3{
+    font-family:'Lobster Two', cursive;
+}
+
+.card{
+    background-image: url(vecteezy_polygon-texture-abstract-background-3d-rendering_7259886.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+        bottom: 300px;
+    display: inline-block; 
+    align-items: top;
+    
+    width: 30%;
+    max-height: auto;
+    border: 2px solid #4f56be;
+    border-radius: 15px; 
+    padding:10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.card img{
+    position: relative;
+       right: 46px;
+       bottom: 47px;
+    width: 140%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card button a{
+    text-decoration: none;
+    padding: 30px;  
+}
+
+.card button{
+    padding: 5px;
+    border: 2px solid rgb(192, 193, 255);
+    border-radius: 15px;
+}
+
+.card{
+    background: linear-gradient(rgba(0, 0, 0, 0.295),rgba(255, 255, 255, 0.288));
+    backdrop-filter: blur(3.0);
+    box-shadow: 4px 6px 19px black;
+    color: rgb(0, 17, 252);
+    padding: 45px;
+    animation: card 2s -5s;
+}
+
+@keyframes card{
+    0%  {opacity: 1;}
+    10%  {opacity: 0;}
+
+   
+}
+/*.card:hover .card-text{
+    display: none;
+
+ }*/
+
+/*.card:hover .oculto-text{
+    display: block;
+    color: rgb(14, 9, 58);
+    
+}*/
+ 
+.all-card{
+    background-color: #acbcec81;
+    backdrop-filter: blur(5.0);
+    box-shadow: 1px 1px 20px black;
+    align-content: center;
+    width: auto;
+    height: 680px;
+    margin-top: 50px;
+ }
+
+.foot{
+    position:relative;
+    bottom: 150px;
+    width: 100%;
+    margin-top: 200px;
+
+}
+
+footer{
+    position: relative;
+    top: 150px;
+    height: 250px;
+    margin: 40px;
+    text-align: center;   
+ }
+
+ .logo-rodape{
+    padding: 59px;
+    color:rgb(4, 5, 7);
+ }
+
+ .logo-rodape h1{
+    font-family:'Dancing Script', cursive;
+ }
